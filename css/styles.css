@@ -25,9 +25,7 @@ body {
 ul {
   list-style-type: none;
 }
-.section {
-  background-color: var(--main-bgr-color);
-}
+
 /*header*/
 .nav {
   background-color: var(--header-bgr-color);
@@ -95,6 +93,7 @@ ul {
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*button*/
@@ -117,6 +116,9 @@ ul {
 }
 
 /*advantages*/
+.advantages {
+  background-color: var(--main-bgr-color);
+}
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -131,6 +133,9 @@ ul {
 }
 
 /*description*/
+.description {
+  background-color: var(--main-bgr-color);
+}
 .description-title {
   font-weight: 700;
   font-size: 36px;
@@ -210,6 +215,10 @@ ul {
 
 /*Portfolio*/
 
+/*general*/
+.general {
+  background-color: var(--main-bgr-color);
+}
 /*buttons*/
 .button-link {
   background-color: var(--team-section-bgr-color);
